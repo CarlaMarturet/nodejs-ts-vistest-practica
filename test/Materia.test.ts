@@ -13,7 +13,7 @@ describe("Materia", () => {
 
   test("verificar si alumno esat en la meteria", () => {
     const materia = new Materia("Matemáticas", 2023, "Ingeniería");
-    const alumno = new Alumno("Juan", 20);
+    const alumno = new Alumno("Juan", 1111,20);
 
     expect(materia.nombre).toBe("Matemáticas");
     expect(materia.anio).toBe(2023);
